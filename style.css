@@ -2927,26 +2927,3 @@ body {
   .cookie-banner-actions { display: flex; flex-direction: column; }
   .cookie-button { white-space: normal; }
 }
-
-/* Temporary blue background test */
-:root {
-  --ink: #102c55;
-  --paper: #eaf2ff;
-  --cream: #dce9fa;
-  --muted: #526783;
-  --line: #b7c9e2;
-}
-body,
-.services::before { background: var(--paper); }
-.site-header,
-.hero,
-.contact,
-.cookie-banner,
-.cookie-dialog { background-color: var(--ink); }
-.about { background: #244875; }
-.service-info summary { border-color: #315d91; background: #315d91; }
-.service-info summary b { border-color: #dce9fa; color: #dce9fa; }
-.service-info summary:hover,
-.service-info[open] summary { border-color: #dce9fa; background: #dce9fa; color: #102c55; }
-.service-info summary:hover b,
-.service-info[open] summary b { border-color: #315d91; color: #315d91; }
